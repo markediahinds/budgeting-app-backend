@@ -1,6 +1,8 @@
+const { v4: uuidv4 } = require('uuid')
+
 module.exports = [
     {
-      id: 1,
+      id: uuidv4(),
       item_name: "Salary",
       amount: 1500,
       date: "2024-01-01",
@@ -10,7 +12,7 @@ module.exports = [
       type: "Revenue"
     },
     {
-      id: 2,
+      id: uuidv4(),
       item_name: "Life Insurance",
       amount: 300,
       date: "2024-01-03",
@@ -20,7 +22,7 @@ module.exports = [
       type: "Expense"
     },
     {
-      id: 3,
+      id: uuidv4(),
       item_name: "Grocery Shopping",
       amount: 300,
       date: "2024-01-03",
@@ -30,7 +32,7 @@ module.exports = [
       type: "Expense"
     },
     {
-      id: 4,
+      id: uuidv4(),
       item_name: "Yoga Mat",
       amount: 125,
       date: "2024-01-30",
@@ -39,7 +41,7 @@ module.exports = [
       frequency: "Occasional",
       type: "Expense"
     },
-    { id: 5,
+    { id: uuidv4(),
       item_name: "Mama Spa Equipment Purchase",
       amount: 3000,
       date: "2024-01-05",
@@ -49,7 +51,7 @@ module.exports = [
       type: "Expense"
     },
     {
-      id: 6,
+      id: uuidv4(),
       item_name: "Açai Bowl",
       amount: 15,
       date: "2024-01-28",
@@ -59,7 +61,7 @@ module.exports = [
       type: "Expense"
     },
     {
-      id: 7,
+      id: uuidv4(),
       item_name: "Savings Deposit",
       amount: 600,
       date: "2024-01-15",
@@ -69,7 +71,7 @@ module.exports = [
       type: "Expense"
     },
     {
-      id: 8,
+      id: uuidv4(),
       item_name: "Consulting Fee",
       amount: 3000,
       date: "2024-02-01",
@@ -79,7 +81,7 @@ module.exports = [
       type: "Revenue"
     },
     {
-      id: 9,
+      id: uuidv4(),
       item_name: "Charity Donation",
       amount: 75,
       date: "2024-02-05",
@@ -89,7 +91,7 @@ module.exports = [
       type: "Expense"
     },
     {
-      id: 10,
+      id: uuidv4(),
       item_name: "Flight to Bali",
       amount: 900,
       date: "2024-01-01",
@@ -99,7 +101,7 @@ module.exports = [
       type: "Expense"
     },
     {
-      id: 11,
+      id: uuidv4(),
       item_name: "Luxury Villa Stay in Ubud",
       amount: 2700,
       date: "2024-01-02",
@@ -109,7 +111,7 @@ module.exports = [
       type: "Expense"
     },
     {
-      id: 12,
+      id: uuidv4(),
       item_name: "Concert Tickets",
       amount: 600,
       date: "2024-01-10",
@@ -119,7 +121,7 @@ module.exports = [
       type: "Expense"
     },
     {
-      id: 13,
+      id: uuidv4(),
       item_name: "Car Insurance",
       amount: 200,
       date: "2024-01-30",
@@ -129,7 +131,7 @@ module.exports = [
       type: "Expense"
     },
     {
-      id: 14,
+      id: uuidv4(),
       item_name: "Monthly Rental Income",
       amount: 2700,
       date: "2024-01-15",
@@ -139,7 +141,7 @@ module.exports = [
       type: "Revenue"
     },
     {
-      id: 15, 
+      id: uuidv4(),
       item_name: "Diversfied Investments",
       amount: 300,
       date: "2024-01-15",
