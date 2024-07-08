@@ -6,7 +6,7 @@ app.use(express.json())
 
 app.use('/transactions', transactionsController)
 
-app.get('/',(req, res) => {
+app.get('/', (req, res) => {
     res.send('M.O.K.A Presents: Budgtr')
 })
 
