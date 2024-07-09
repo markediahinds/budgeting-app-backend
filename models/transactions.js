@@ -3,7 +3,7 @@ const { v4: uuidv4 } = require('uuid')
 module.exports = [
     {
       id: uuidv4(),
-      item_name: "Salary",
+      product: "Salary",
       amount: 1500,
       date: "2024-01-01",
       merchant: "Alphabet",
@@ -13,7 +13,7 @@ module.exports = [
     },
     {
       id: uuidv4(),
-      item_name: "Life Insurance",
+      product: "Life Insurance",
       amount: 300,
       date: "2024-01-03",
       merchant: "Zurich Insurance Group",
@@ -23,7 +23,7 @@ module.exports = [
     },
     {
       id: uuidv4(),
-      item_name: "Grocery Shopping",
+      product: "Grocery Shopping",
       amount: 300,
       date: "2024-01-03",
       merchant: "Farmer's Market",
@@ -33,7 +33,7 @@ module.exports = [
     },
     {
       id: uuidv4(),
-      item_name: "Yoga Mat",
+      product: "Yoga Mat",
       amount: 125,
       date: "2024-01-30",
       merchant: "Yogini Ma'at",
@@ -42,7 +42,7 @@ module.exports = [
       type: "Expense"
     },
     { id: uuidv4(),
-      item_name: "Mama Spa Equipment Purchase",
+      product: "Mama Spa Equipment Purchase",
       amount: 3000,
       date: "2024-01-05",
       merchant: "Gharieni",
@@ -52,7 +52,7 @@ module.exports = [
     },
     {
       id: uuidv4(),
-      item_name: "Açai Bowl",
+      product: "Açai Bowl",
       amount: 15,
       date: "2024-01-28",
       merchant: "Ubatuba",
@@ -62,7 +62,7 @@ module.exports = [
     },
     {
       id: uuidv4(),
-      item_name: "Savings Deposit",
+      product: "Savings Deposit",
       amount: 600,
       date: "2024-01-15",
       merchant: "Self",
@@ -72,7 +72,7 @@ module.exports = [
     },
     {
       id: uuidv4(),
-      item_name: "Consulting Fee",
+      product: "Consulting Fee",
       amount: 3000,
       date: "2024-02-01",
       merchant: "She Code Africa",
@@ -82,7 +82,7 @@ module.exports = [
     },
     {
       id: uuidv4(),
-      item_name: "Charity Donation",
+      product: "Charity Donation",
       amount: 75,
       date: "2024-02-05",
       merchant: "Peace 4 Kids",
@@ -92,7 +92,7 @@ module.exports = [
     },
     {
       id: uuidv4(),
-      item_name: "Flight to Bali",
+      product: "Flight to Bali",
       amount: 900,
       date: "2024-01-01",
       merchant: "KLM Royal Dutch Airlines",
@@ -102,7 +102,7 @@ module.exports = [
     },
     {
       id: uuidv4(),
-      item_name: "Luxury Villa Stay in Ubud",
+      product: "Luxury Villa Stay in Ubud",
       amount: 2700,
       date: "2024-01-02",
       merchant: "Fivelements",
@@ -112,7 +112,7 @@ module.exports = [
     },
     {
       id: uuidv4(),
-      item_name: "Concert Tickets",
+      product: "Concert Tickets",
       amount: 600,
       date: "2024-01-10",
       merchant: "Ticketmaster",
@@ -122,7 +122,7 @@ module.exports = [
     },
     {
       id: uuidv4(),
-      item_name: "Car Insurance",
+      product: "Car Insurance",
       amount: 200,
       date: "2024-01-30",
       merchant: "Liberty Mutual",
@@ -132,7 +132,7 @@ module.exports = [
     },
     {
       id: uuidv4(),
-      item_name: "Monthly Rental Income",
+      product: "Monthly Rental Income",
       amount: 2700,
       date: "2024-01-15",
       merchant: "Tenant",
@@ -142,7 +142,7 @@ module.exports = [
     },
     {
       id: uuidv4(),
-      item_name: "Diversfied Investments",
+      product: "Diversfied Investments",
       amount: 300,
       date: "2024-01-15",
       merchant: "Charles Schwab",
