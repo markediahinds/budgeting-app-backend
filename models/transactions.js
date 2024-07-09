@@ -142,7 +142,7 @@ module.exports = [
     },
     {
       id: uuidv4(),
-      product: "Diversfied Investments",
+      product: "Diversified Investments",
       amount: 300,
       date: "2024-01-15",
       merchant: "Charles Schwab",
